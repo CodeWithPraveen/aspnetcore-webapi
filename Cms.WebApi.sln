@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.WebApi", "Cms.WebApi\Cms.WebApi.csproj", "{7B6160CF-02BC-4298-A1F9-DBC9A3A860FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Data.Repository", "Cms.Data.Repository\Cms.Data.Repository.csproj", "{758BD7E4-01AB-4E77-B3F9-3D38CB7E3E82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18228F58-5660-414D-9C92-8B19FC731FEF}"
+	ProjectSection(SolutionItems) = preProject
+		openapi-cms.yaml = openapi-cms.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B6160CF-02BC-4298-A1F9-DBC9A3A860FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6160CF-02BC-4298-A1F9-DBC9A3A860FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6160CF-02BC-4298-A1F9-DBC9A3A860FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6160CF-02BC-4298-A1F9-DBC9A3A860FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758BD7E4-01AB-4E77-B3F9-3D38CB7E3E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758BD7E4-01AB-4E77-B3F9-3D38CB7E3E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758BD7E4-01AB-4E77-B3F9-3D38CB7E3E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758BD7E4-01AB-4E77-B3F9-3D38CB7E3E82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D3E23F4-8B84-4D18-8ED7-9582E6E34367}
+	EndGlobalSection
+EndGlobal
